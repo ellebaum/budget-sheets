@@ -23,10 +23,10 @@ Scripts to help with spreadsheeting!
 2. In the terminal, type 'cd /mnt/c/unbuntu/budget-sheets' ('cd' means 'change directory')
 - type 'ls' (list) to view directory contents
 - type 'pwd' (print working directory) to see which directory you're in
-3. In Windows, create a copy the spreadsheet into c:\unbuntu/budget-sheets
-4. In Windows, create an output file (ex: output.yaml) in c:\ubuntu/budget-sheets
+3. In Windows, create a copy the spreadsheet into c:\unbuntu\budget-sheets
+4. In Windows, create an output file (ex: output.yaml) in c:\ubuntu\budget-sheets
 - Note that the output file **must be empty**
-5. Open c:\ubuntu/budget-sheets/spreadsheet-tools.rb a text editor (ex: Sublime Text)
+5. Open c:\ubuntu\budget-sheets\spreadsheet-tools.rb a text editor (ex: Sublime Text)
 6. Scroll to the bottom of the file (where it says "Call Functions Below Here")
 7. Use the functions according to the format in the comments (lines starting with a # are commented, meaning you can read them but they will not execute as code)
 8. Save the file
