@@ -30,6 +30,6 @@ Scripts to help with spreadsheeting!
 6. Scroll to the bottom of the file (where it says "Call Functions Below Here")
 7. Use the functions according to the format in the comments (lines starting with a # are commented, meaning you can read them but they will not execute as code)
 8. Save the file
-9. In the terminal, type 'ruby spreadsheet-tools.rb'
+9. In the terminal, type 'ruby spreadsheet_tools.rb'
 - If it's taking too long, type CTRL + C in the terminal to stop the process
 10. Open the output file when the script says it's done!
