@@ -47,9 +47,9 @@ def generate_actuals_yaml (input_path, output_path)
 			vendor_name    = actual_sheet[index][28].value #Column AC
 			vendor_number  = actual_sheet[index][17].value #Column R
 			currency       = actual_sheet[index][12].value #Column M
-			#Default Cost Center is 37000000 if field is blank
+			#Default Cost Center is REDACTED1 if field is blank
 			if cost_center.nil?
-				cost_center = '37000000'
+				cost_center = 'REDACTED1'
 			end
 			if vendor_name == ""
 				vendor_name = "NO VENDOR NAME"
@@ -71,5 +71,5 @@ end
 
 
 
-#generate_actuals_yaml('./2020_RF_EAST_HW_06.xlsx', 'actuals.yaml')
+#generate_actuals_yaml('./file_name.xlsx', 'actuals.yaml')
 yaml_to_sqlite('./actuals.yaml')
